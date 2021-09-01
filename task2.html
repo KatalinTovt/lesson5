@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./task2.css">
+</head>
+<body>
+  <div id="all">
+  <div id="first">
+    <div id="money-inpt">
+      <div class="text" id="money-text">Баланс</div>
+      <input type="text" id="moneyCount" class="inpt">
+    </div>
+    <div id="beer-inpt">
+      <div class="text" id="beer-text">Пиво</div>
+      <input type="text" id="beerCount" class="inpt" >
+    </div>
+    <div id="wine-inpt">
+      <div class="text" id="wine-text">Вино</div>
+      <input type="text" id="wineCount"  class="inpt">
+    </div>
+    <div id="pepsi-inpt">
+      <div class="text"id="pepsi-text">Пепсі</div>
+      <input type="text" id="pepsiCount" class="inpt" >
+    </div>
+  </div>
+
+  <div id="second">
+    <div id="count-inpt">
+      <div class="text" id="count-text">Кількість</div>
+      <input type="text" id="qty" class="inpt"> 
+    </div>
+    <div id="radio-dspl">
+    <p><input type="radio" name="check" class="check" id="beer">Пиво</p>
+    <p><input type="radio" name="check" class="check" id="wine">Вино</p>
+    <p><input type="radio" name="check" class="check" id="pepsi">Пепсі</p>
+  </div>
+<input type="button" class="btn" id="add" value="Додати">
+<textarea  id="text-area" cols="30" rows="10"></textarea>
+<input type="button" class="btn"  id="buy" value="Купити">
+  </div>
+
+  <div id="third">
+
+  </div>
+</div>
+
+<div id="error">
+  <div id="error-text"></div>
+  <input type="button" id="btn-error" value="Close">
+</div>
+  <script src="./task2.js" type="module"></script>
+  <script src="./shopModule.js" type="module"></script>
+</body>
+</html>

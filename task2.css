@@ -1,0 +1,86 @@
+.text{
+  font-weight: bold;
+}
+#all{
+  display: flex;
+  justify-content: center;
+  margin: 100px;
+}
+#first, #second, #third {
+  width: 330px;
+  height: 420px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  box-sizing: border-box;
+  margin: 30px;
+  padding: 40px 30px;
+  font-size: 20px;
+}
+#radio-dspl{
+  display: flex;
+}
+#error{
+  width: 650px;
+  height: 160px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 5px rgb(0 0 0 / 20%);
+  position: absolute;
+  top: 50px;
+  left: 500;
+  text-align: center;
+  padding: 62px;
+  box-sizing: border-box;
+  display: none;
+  background-color: whitesmoke;
+  left: 566px;
+  font-size: 17px;
+}
+#btn-error{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  height: 36px;
+  width: 91px;
+  font-size: 15px;
+  border: none;
+  background-color: rgb(201, 199, 199);
+  border-radius: 5px;
+}
+
+#wine-inpt, #beer-inpt, #pepsi-inpt{
+  margin: 15px 0;
+}
+.check{
+  margin-right: 5px;
+}
+p{
+  margin: 15px 5px 0 5px ;
+}
+.btn{
+  margin: 15px 0;
+  height: 36px;
+  width: 100px;
+  font-size: 15px;
+  border: none;
+  background-color: rgb(201, 199, 199);
+  border-radius: 5px;
+}
+.inpt{
+  height: 32px;
+  width: 250px;
+  background-color: rgb(235, 233, 233);
+  border-radius: 3px;
+  font-size: 15px;
+  padding: 0 5px;
+}
+#qty{
+  background-color: whitesmoke;
+}
+textarea{
+  height: 130px;
+  background-color: rgb(235, 233, 233) ;
+  padding: 10px;
+  font-size: 13px;
+}
